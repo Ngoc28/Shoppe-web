@@ -1,0 +1,32 @@
+.container {
+    margin: 0  auto;
+}
+
+.container-heading {
+    margin: 32px 0;
+}
+
+.container-heading p {
+    font-family: gilroy-medium;
+    font-size: 24px;
+}
+
+.container-order {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+}
+
+.container-order img {
+    object-fit: cover;
+}
+
+.container-order p {
+    font-family: gilroy-medium;
+    font-size: 24px;
+} 
+
+.line {
+    border-bottom: 1px solid #ddd;
+}
