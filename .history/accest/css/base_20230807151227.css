@@ -1,0 +1,22 @@
+@font-face{font-family:gilroy-bold;font-style:normal;font-weight:400;src:local('Gilroy-Bold'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')}@font-face{font-family:gilroy-heavy;font-style:normal;font-weight:400;src:local('Gilroy-Heavy'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')}@font-face{font-family:gilroy-light;font-style:normal;font-weight:400;src:local('Gilroy-Light'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')}@font-face{font-family:gilroy-medium;font-style:normal;font-weight:400;src:local('Gilroy-Medium'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')}@font-face{font-family:gilroy-regular;font-style:normal;font-weight:400;src:local('Gilroy-Regular'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format('woff')}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #FA541C;
+    --footer-color: #FFF8F6;
+    --text-color: #3D3737;
+    --gray-text:#85858A;
+}
+
+.wide{
+    width: 1280px;
+}
+
+html {
+    font-family: "Gilroy", sans-serif;
+}

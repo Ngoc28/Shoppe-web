@@ -1,0 +1,93 @@
+@font-face{font-family:gilroy-bold;font-style:normal;font-weight:400;src:local('Gilroy-Bold'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')}@font-face{font-family:gilroy-heavy;font-style:normal;font-weight:400;src:local('Gilroy-Heavy'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')}@font-face{font-family:gilroy-light;font-style:normal;font-weight:400;src:local('Gilroy-Light'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')}@font-face{font-family:gilroy-medium;font-style:normal;font-weight:400;src:local('Gilroy-Medium'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')}@font-face{font-family:gilroy-regular;font-style:normal;font-weight:400;src:local('Gilroy-Regular'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format('woff')}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #FA541C;
+    --footer-color: #FFF8F6;
+    --white-color: #FFFF;
+    --text-color: #3D3737;
+    --gray-text:#85858A;
+    --gray-background: #DDDDDD;
+    --main-background: #e0ddddef;
+}
+
+.wide{
+    width: 1280px;
+}
+
+html {
+    font-family: gilroy-regular, sans-serif;
+}
+
+
+.product-item {
+    background: var(--white-color);
+    display: flex;
+}
+
+.product-info-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info-title p {
+    font-family: gilroy-medium;
+    font-size: 16px;
+}
+
+.product-info-title button {
+    border: none;
+    background: #F6FFED;
+    color: #389E0D;
+    padding: 5px;
+}
+
+.product-info-text p {
+    font-size: 16px;
+}
+
+.product-info-color {
+    display: flex;
+}
+
+.product-choose-color {
+    display: flex;
+}
+
+
+.product-info-status {
+    display: flex;
+}
+
+.product-choose-white{
+    border: 1px solid #fff;
+    padding: 5px;
+    color: var(--white-color);
+    border-radius: 50%;
+}
+
+.product-choose-black{
+    border: 1px solid #000;
+    padding: 5px;
+    color: #000;
+    border-radius: 50%;
+}
+
+.product-choose-vio{
+    border: 1px solid #304A23;
+    padding: 5px;
+    color: #304A23;
+    border-radius: 50%;
+}
+
+.product-choose-red{
+    border: 1px solid #AF0303;
+    padding: 5px;
+    color: #AF0303;
+    border-radius: 50%;
+}

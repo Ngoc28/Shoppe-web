@@ -1,0 +1,29 @@
+.main-width{
+    width: 1120px;
+}
+
+header {
+    background: var(--main-color);
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info-dis {
+    display: flex;
+}
+
+.header-info-country {
+
+}
+
+.boder-r {
+
+}
+
+.header-info-country {
+
+}

@@ -1,0 +1,164 @@
+.container {
+    margin: 32px auto ;    
+}
+
+.container-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-title {
+    font-size: 24px;
+    font-family: gilroy-medium;
+}
+
+.container-cart-num {
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.line {
+    margin: 32px 0;
+    border-bottom: 1px solid var(--text-color);
+}
+/* Product */
+.container-order {
+    display: flex;
+}
+
+.container-order-pro {
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+    padding: 0 10px;
+    flex: 3;
+    background: var(--white-color);
+    border-radius: 5px;
+}
+
+
+
+.container-order-check input {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.container-order-block {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-order-img img{
+    object-fit: cover;
+}
+
+.container-order-info {
+    flex: 3;
+}
+
+.container-order-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-order-price,
+.container-order-brand p {
+    font-family: gilroy-medium;
+    font-size: 16px;
+}
+
+.container-order-brand span {
+    font-size: 14px;
+    color: var(--gray-text);
+}
+
+
+.container-order-num {
+    display: flex;
+    align-items: center;
+}
+
+.container-order-num p {
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.container-order-num .minus,
+.container-order-num .plus {
+    padding: 3px;
+    width: 24px;
+    height: 24px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-order-num .minus:hover,
+.container-order-num .plus:hover {
+    opacity: .8;
+}
+
+
+
+.container-order-num .minus {
+    color: var(--white-color);
+    background: var(--text-color);
+}
+
+.container-order-info i {
+    font-size: 15px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.container-order-info i:hover {
+    color: red;
+}
+
+/* container-form */
+
+.line-sort {
+    border-bottom: 1px solid var(--text-color);
+    margin: 12px 0;
+}
+
+.container-order-form {
+    flex: 1;
+    background: var(--white-color);
+    margin-left: 32px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container-order-form-heading {
+    font-family: gilroy-medium;
+    font-size: 20PX;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.discount p
+.total-amount p{
+    font-family: gilroy-medium;
+    font-size: 16px;
+}
+
+.total-amount,
+.discount,
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total span{
+    color: var(--main-color);
+}

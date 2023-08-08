@@ -1,0 +1,13 @@
+.container {
+    margin: 0 auto;    
+}
+
+.container-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-title {
+    font-size: 24px;
+    font-family: gilroy-medium;
+}

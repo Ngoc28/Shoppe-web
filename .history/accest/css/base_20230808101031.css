@@ -1,0 +1,152 @@
+@font-face{font-family:gilroy-bold;font-style:normal;font-weight:400;src:local('Gilroy-Bold'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')}@font-face{font-family:gilroy-heavy;font-style:normal;font-weight:400;src:local('Gilroy-Heavy'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')}@font-face{font-family:gilroy-light;font-style:normal;font-weight:400;src:local('Gilroy-Light'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')}@font-face{font-family:gilroy-medium;font-style:normal;font-weight:400;src:local('Gilroy-Medium'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')}@font-face{font-family:gilroy-regular;font-style:normal;font-weight:400;src:local('Gilroy-Regular'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format('woff')}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #FA541C;
+    --footer-color: #FFF8F6;
+    --white-color: #FFFF;
+    --text-color: #3D3737;
+    --gray-text:#85858A;
+    --gray-background: #DDDDDD;
+    --main-background: #e0ddddef;
+}
+
+.wide{
+    width: 1280px;
+}
+
+html {
+    font-family: gilroy-regular, sans-serif;
+}
+/* product */
+
+.component {
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0;
+}
+
+.product {
+    margin: 32px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+
+.product-item {
+    background: var(--white-color);
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: auto 0;
+}
+
+.product-img {
+    margin-right: 10px;
+}
+
+.product-img img {
+    object-fit: cover;
+}
+
+.product-info-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info-title p {
+    font-family: gilroy-medium;
+    font-size: 16px;
+}
+
+.product-info-title button {
+    border: none;
+    background: #F6FFED;
+    color: #389E0D;
+    padding: 5px;
+}
+
+.product-info-text p {
+    font-size: 16px;
+}
+
+.product-info-color {
+    display: flex;
+}
+
+.product-info-color p {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.product-choose-color {
+    display: flex;
+    background-color: var(--gray-background);
+    border-radius: 6px;
+    padding: 3px;
+}
+
+.product-choose-white{
+    margin-right: 5px;
+    padding: 1px 8px;
+    background: var(--white-color);
+    border-radius: 50%;
+}
+
+.product-choose-black{
+    margin-right: 5px;
+    padding: 1px 8px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.product-choose-vio{
+    margin-right: 5px;
+
+    padding: 1px 8px ;
+    background: #304A23;
+    border-radius: 50%;
+}
+
+.product-choose-red{
+    padding: 1px 8px;
+    background: #AF0303;
+    border-radius: 50%;
+}
+
+.product-info-status {
+    display: flex;
+}
+
+.product-info-status p{
+    font-size: 16px;
+    color: var(--text-color);
+    margin-right: 5px;
+}
+
+.product-info-status span {
+    color: #389E0D;
+}
+
+.product-info-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info-price span{
+    font-family: gilroy-medium;
+    font-size: 16px;
+}

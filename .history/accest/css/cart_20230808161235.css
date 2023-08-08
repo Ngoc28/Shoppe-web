@@ -1,0 +1,22 @@
+.container {
+    margin: 32px auto ;    
+}
+
+.container-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-title {
+    font-size: 24px;
+    font-family: gilroy-medium;
+}
+
+.container-cart-num {
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.line {
+    
+}

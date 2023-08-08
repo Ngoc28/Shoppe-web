@@ -1,0 +1,84 @@
+.width {
+    width: 700px;
+}
+
+.container-pay {
+    background-color: var(--white-color);
+    padding: 40px;
+}
+
+.heading-payment {
+    text-align: center;
+}
+
+.heading-payment p {
+    font-size: 32px;
+    font-family: gilroy-medium;
+    color: var(--main-color);
+    margin-bottom: 8px;
+}
+
+.heading-payment span {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+/* payment detail */
+.container {
+    margin: 40px auto;
+
+}
+
+.container-pay {
+    border-radius: 5px;
+}
+
+.line {
+    border-bottom: 1px solid #ccc;
+}
+
+.payment-detail {
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border-radius: 3px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px 0 30px;
+}
+
+.payment-detail .payment-title {
+    font-family: gilroy-medium;
+    font-size: 16px;
+}
+
+.total,
+.payment-date,
+.payment-oder {
+    display: flex;
+}
+
+
+.total p,
+.total span,
+.payment-date p,
+.payment-oder span,
+.payment-oder p {
+    flex: 1;
+    font-size: 16px;
+}
+
+.btn-back {
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    background: var(--white-color);
+    border-radius: 4px;
+    
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}

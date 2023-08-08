@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+}
+
+.container-nav{
+    background: var(--white-color);
+    flex: 1;
+    padding: 16px 16px 40px;
+}
+
+.container-nav-fil {
+    display: flex;
+    align-items: center;
+}
+
+.container-nav-fil {
+
+}
+
+.container-nav-fil i {
+    font-size: 10px;
+}
+
+.container-product {
+    flex: 4;
+}

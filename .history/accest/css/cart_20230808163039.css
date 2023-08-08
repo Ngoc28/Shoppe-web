@@ -1,0 +1,45 @@
+.container {
+    margin: 32px auto ;    
+}
+
+.container-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-title {
+    font-size: 24px;
+    font-family: gilroy-medium;
+}
+
+.container-cart-num {
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.line {
+    margin: 32px 0;
+    border-bottom: 1px solid var(--text-color);
+}
+/* Product */
+.container-order-pro {
+    display: flex;
+    align-items: center ;
+}
+
+.container-order-img img{
+    object-fit: cover;
+}
+
+.container-order-info {
+    display: flex;
+}
+
+.container-order-brand p {
+    font-family: gilroy-medium;
+    font-size: 16px;
+}
+
+.container-order-brand span {
+    co
+}

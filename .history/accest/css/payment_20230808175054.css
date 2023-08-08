@@ -1,0 +1,46 @@
+.width {
+    width: 700px;
+}
+
+.container-pay {
+    background-color: var(--white-color);
+    padding: 40px;
+}
+
+.heading-payment {
+    text-align: center;
+}
+
+.heading-payment p {
+    font-size: 32px;
+    font-family: gilroy-medium;
+    color: var(--main-color);
+    margin-bottom: 8px;
+}
+
+.heading-payment span {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+/* payment detail */
+.line {
+    border-bottom: 1px solid #ccc;
+}
+.payment-detail {
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border-radius: 3px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.payment-oder {
+    display: flex;
+}
+
+.payment-oder span,
+.payment-oder p {
+    flex: 1;
+}

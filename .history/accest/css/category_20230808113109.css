@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+}
+
+.container-nav{
+    background: var(--white-color);
+}

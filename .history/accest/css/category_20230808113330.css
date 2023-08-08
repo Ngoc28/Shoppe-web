@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+}
+
+.container-nav{
+    background: var(--white-color);
+    flex: 1;
+}
+
+.container-nav-fil {
+    display: flex;
+    align-items: center;
+}
+
+.container-nav-fil {
+
+}
+
+.container-nav-fil img {
+    
+}
+
+.container-product {
+    flex: 4;
+}

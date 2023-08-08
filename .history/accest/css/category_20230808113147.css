@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.container-nav{
+    background: var(--white-color);
+    flex: 1;
+}
+
+.container-product {
+    flex: 4;
+}

@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+.container-nav{
+    background: var(--white-color);
+    flex: 1;
+    padding: 16px 16px 40px;
+}
+
+.container-nav-fil {
+    display: flex;
+    align-items: center;
+}
+
+.container-nav-fil p{
+    font-size: 16px;
+    margin-right: 6px;
+    font-family: gilroy-medium;
+
+}
+
+.container-nav-fil i {
+    font-size: 12px;
+}
+
+.container-product {
+    flex: 4;
+}

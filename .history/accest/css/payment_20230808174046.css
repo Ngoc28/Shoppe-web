@@ -1,0 +1,11 @@
+.width {
+    width: 700px;
+}
+
+.container-pay {
+    background-color: var(--white-color);
+}
+
+.heading-payment {
+    text-align: center;
+}

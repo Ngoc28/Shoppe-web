@@ -1,0 +1,8 @@
+.main-width{
+    width: 1120px;
+}
+
+header {
+    background: var(--main-color);
+    display: flex;
+}

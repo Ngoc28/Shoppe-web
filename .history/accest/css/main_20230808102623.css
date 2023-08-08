@@ -1,0 +1,177 @@
+.main-width{
+    width: 1120px;
+}
+
+body {
+    background: var(--main-background);
+}
+
+
+
+/* container */
+.container {
+    margin: 72px auto;
+    width: 100%;
+}
+
+.banner-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #FFF1F0;
+}
+
+.banner-sale {
+    max-width: 648px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.banner-heading {
+    font-size: 32px;
+    color: var(--main-color);
+    font-weight: 300;
+}
+
+.banner-text {
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.banner-price {
+    display: flex;
+    font-family: gilroy-medium;
+    color: var(--text-color);
+}
+
+.banner-price p {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.banner-price span {
+    font-size: 24px;
+}
+
+.add-cart {
+    width: 130px;
+    padding: 8px;
+    color: var(--white-color);
+    font-size: 16px;
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-cart:hover {
+    background-color: #ec5623;
+}
+
+.add-cart i {
+    padding-right: 5px ;
+}
+
+.banner-img  img{
+    object-fit: cover;
+}
+
+/* fashion */
+.fashion {
+    display: flex;
+    margin: 32px auto 0;
+    flex-direction: column;
+    gap: 32px;
+}
+.fashion-heading {
+    font-size: 32px;
+    font-weight: 400px;
+    color: var(--text-color);
+    width: 200px;
+    
+}
+
+.boder-bottom {
+    padding-top: 15px;
+    width: 70%;
+    flex-direction: row;
+    gap: 32px;
+    border-bottom: 2px solid var(--text-color);
+}
+
+.fashion-product {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.fashion-item {
+    flex: 1;
+    position: relative;
+    padding: 20px 0 10px 40px;
+    background: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 1px 1px #ccc;
+}
+
+.fashion-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 345px;
+    height: 195px;
+}
+
+.fashion-info-title  {
+    font-family: gilroy-regular;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.fashion-info-title > span {
+    font-family: gilroy-medium;
+    font-size: 24px;
+}
+
+.fashion-info-text {
+    color: var(--gray-text);
+    font-size: 16px;
+}
+
+.fashion-info-price {
+    font-size: 16px;
+    font-family: gilroy-medium;
+}
+
+
+.fashion-img {
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.btn-seeMore {
+    background: var(--white-color);
+    border: 1px solid var(--main-color);
+    font-size: 16px;
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.line{
+    border-bottom: 1px solid var(--main-color);
+    width: 43%;
+}
+
+
+
+
