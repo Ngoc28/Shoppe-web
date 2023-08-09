@@ -231,7 +231,7 @@ body {
     margin: 32px 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 16px;
 }
 
 
@@ -242,7 +242,6 @@ body {
     flex: 1;
     border-radius: 8px;
     gap: 8px;
-    box-shadow: 0 1px 1px #ccc ;
 }
 
 .product-info {

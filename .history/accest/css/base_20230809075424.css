@@ -231,7 +231,7 @@ body {
     margin: 32px 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 16px;
 }
 
 
@@ -242,7 +242,6 @@ body {
     flex: 1;
     border-radius: 8px;
     gap: 8px;
-    box-shadow: 0 1px 1px #ccc ;
 }
 
 .product-info {
@@ -467,17 +466,6 @@ footer {
     color: #837e7e;
 }
 
-@media (max-width: 1023px) {
-    header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
-    }
-    .header-top,
-    .header-bot {
-        padding: 16px;
-    }
+@media (max-width: 739px) {
     
 }

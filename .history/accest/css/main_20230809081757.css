@@ -155,7 +155,6 @@
     width: 43%;
 }
 
-
 @media (max-width: 1023px) {
     .banner-home {
         display: flex;
